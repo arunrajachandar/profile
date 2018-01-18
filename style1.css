@@ -38,17 +38,17 @@ body {
   margin-top: 5px;
 }
 
+
+
 .contents img {
-  margin-left: 15px;
+  margin: 20px 50px;
   border: 2px;
   border-style: double;
   border-color: green;
-  border-radius: 200px;
-
-  height: 200px;
-  width: 200px;
+  border-radius: 70%;
+  height: 70%;
+  width: 70%;
   box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.4), 3px 10px 20px 4px rgba(0, 0, 0, 0.21);
-
 }
 
 .contents {
@@ -57,13 +57,13 @@ body {
 
 .content,
 .contents,
-section {
+.content1 {
   padding: 12px;
   box-shadow: 0 5px 14px 0 rgba(0, 0, 0, 0.2), 0px 10px 9px 0px rgba(0, 0, 0, 0.21);
 }
 
-section {
-  margin-top: 20px;
+.content1 {
+  top:0;
 }
 
 .tabNavBar .links {
@@ -79,16 +79,18 @@ footer {
 
 }
 
-.tabSideNavBar {
-  float: left;
-  background-color: white;
+.tabSideNavBar,
+.contents .picture  {
   width: 29.5%;
   padding: 0;
-
+  background-color: white;
+  float: left;
 }
 
+
 .tabSideNavBar,
-.content {
+.content,
+.content1 {
   margin: 8px;
 }
 
@@ -131,14 +133,19 @@ when we keep the cursor on them/when a button is being clicked.
 }
 /* Style the tab content */
 
-.content {
+.content,
+.content1 {
   width: 68.3%;
-  display: none;
   margin-left: 31%;
+}
+
+.content{
+  display: none;
 }
 
 table,
 .content,
+.content1,
 .contents,
 .headings,
 .tabSideNavBar button,
